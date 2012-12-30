@@ -12,15 +12,16 @@
 }
 // List
 .list (@type: disc) {
-    list-style-type: @type;
-    list-style-position: inside;
+  list-style-type: @type;
+  list-style-position: inside;
 }
+// Clearfix
 .clearfix:after {
-    content: "";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 
@@ -29,18 +30,18 @@
 // ----------------------------------------
 // All corners radius
 .border-radius (@radius: 10px) {
-    -moz-border-radius: @radius;
-    -webkit-border-radius: @radius;
-    border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
 }
 // Top corners radius
 .border-radius-top (@radius: 10px) {
-    -webkit-border-top-left-radius: @radius;
-    -webkit-border-top-right-radius: @radius;
-    -moz-border-radius-topleft: @radius;
-    -moz-border-radius-topright: @radius;
-    border-top-left-radius: @radius;
-    border-top-right-radius: @radius;
+  -webkit-border-top-left-radius: @radius;
+  -webkit-border-top-right-radius: @radius;
+  -moz-border-radius-topleft: @radius;
+  -moz-border-radius-topright: @radius;
+  border-top-left-radius: @radius;
+  border-top-right-radius: @radius;
 }
 
 
