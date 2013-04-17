@@ -86,7 +86,7 @@
     background: -o-linear-gradient(@direction, @startColor 0%,@endColor 100%);
     background: linear-gradient(@direction, @startColor 0%,@endColor 100%);
     background-repeat: no-repeat;
-    filter: ~"progid:DXImageTransform.Microsoft.gradient( startColorstr='@{clr-start}', endColorstr='@{clr-end}', GradientType='@{type}')";
+    filter: ~"progid:DXImageTransform.Microsoft.gradient( startColorstr='@{startColor}', endColorstr='@{endColor}', GradientType='@{type}')";
   }
   .radial(@innerColor: #555, @outerColor: #333)  {
     background-color: @outerColor;
