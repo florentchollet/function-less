@@ -6,6 +6,12 @@
   height: @height;
   width: @width;
 }
+// typo 
+.font-size(@size) {
+	@remsize: @size / 16;
+	font-size: e("@{size}px");
+	font-size: e("@{remsize}rem"); 
+}
 // Test color
 .test(@colour: yellow) {
   background-color: @colour;
